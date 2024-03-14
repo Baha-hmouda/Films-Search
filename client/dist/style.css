@@ -1,0 +1,67 @@
+.OneFilm {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .OneFilm h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .OneFilm img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .OneFilm p {
+    margin-bottom: 10px;
+  }
+  
+  .OneFilm button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .OneFilm button:hover {
+    background-color: #0056b3;
+  }
+  
+  .OneFilm .inputs {
+    margin-top: 20px;
+  }
+.ListFilm {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+
+.Add input[type="text"] {
+    background-color: rgb(189, 29, 29);
+  padding: 20px;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .Add button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .Add button:hover {
+    background-color: #0056b3;
+  }
+  
